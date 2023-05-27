@@ -14,8 +14,10 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js "></script>
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,200" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css ">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -149,7 +151,7 @@
                                 <i class="material-icons prefix white-text">search</i>
                                 <input id="icon_prefix" type="text" class="validate">
                                 <label class="white-text " for="icon_prefix">Pesquisar</label>
-                                <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+                                <span class="helper-text" data-error="wrong" data-success="right"></span>
                             </div>
                         </form>
                     </div>
@@ -248,6 +250,79 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="ultimas-avaliacoes mui-container-fluid grey">
+            <div class="barra"></div>
+            <div class="h4-titulo">
+                <h4>Últimas avaliações</h4>
+            </div>
+
+            <div class="comentarios row">
+                <article class="comentario col s12 m2 teal lighten-4 offset-m2 z-depth-5">
+                    <div class="foto">
+                        <span class="material-symbols-outlined col-3">
+                            account_circle
+                        </span>
+                    </div>
+                    <h4>Manfra de Andrade</h4>
+                    <p>Péssimo produto, em 1 mês quebrou</p>
+                    <p>Avaliação</p>
+                    <div class="estrelas-avaliacao">
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star_half</i>
+                        <i class="material-icons small">star_border</i>
+                        <i class="material-icons small">star_border</i>
+                    </div>
+                    <p class="data-avaliacao">10/01/2021</p>
+                </article>
+
+                <article class="comentario col s12 m2 teal lighten-4 offset-m1 z-depth-5"> 
+                    <div class="foto">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                    </div>
+                    <h4>Caioã Rodrigues</h4>
+                    <p>Ótimo produto</p>
+                    <p>Avaliação</p>
+                    <div class="estrelas-avaliacao">
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star</i>
+                    </div>
+                    <p class="data-avaliacao">15/04/2022</p>
+                </article>
+                <article class="comentario col s12 m2 teal lighten-4 offset-m1 z-depth-5">
+                    <div class="foto">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                    </div>
+                    <h4>Fischer Sousa</h4>
+                    <p>É bom, mas tem poucos slots de memória</p>
+                    <p>Avaliação</p>
+                    <div class="estrelas-avaliacao">
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star</i>
+                        <i class="material-icons small">star_border</i>
+                    </div>
+                    <p class="data-avaliacao">23/02/2023</p>
+                </article>
+            </div>
+
+            <div class="btn-carregar-mais row">
+                <button class="btn col m2 offset-m10">
+                    + Carregar mais
+                </button>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
