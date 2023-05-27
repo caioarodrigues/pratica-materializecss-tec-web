@@ -1,0 +1,55 @@
+.main{
+    height: 100vh;
+}
+
+.barra{
+    height: 10px;
+    background-color: #ccc;
+    opacity: 50%;
+    margin-block-end: 10px;
+}
+
+.h4-titulo{
+    border: solid 1px black;
+    width: fit-content;
+    padding: 3px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.h4-titulo > h4{
+    color: white;
+    font-size: 20px;
+}
+.comentarios{
+    display: flex;
+    flex-grow: 1;
+}
+
+.comentario{
+    border-radius: 5px;
+    border: solid 1px black;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+}
+
+.foto > .material-symbols-outlined{
+    font-size: 48px;
+}
+
+.estrelas-avaliacao{
+    display: flex;
+    justify-content: center;
+}
+
+.data-avaliacao{
+    text-align: center;
+}
